@@ -1,4 +1,4 @@
-package ua.androstav.nausafe.ui.home
+package ua.androstav.kaisafe.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import ua.androstav.nausafe.R
-import ua.androstav.nausafe.utils.FileLogger
+import ua.androstav.kaisafe.R
+import ua.androstav.kaisafe.utils.FileLogger
 
 class HomeFragment : Fragment() {
 

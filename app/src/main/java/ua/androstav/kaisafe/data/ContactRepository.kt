@@ -1,4 +1,4 @@
-package ua.androstav.nausafe.data
+package ua.androstav.kaisafe.data
 
 import androidx.lifecycle.LiveData
 

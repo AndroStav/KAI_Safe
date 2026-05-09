@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">NAU Safe</string>
+    <string name="app_name">KAI Safe</string>
     <string name="title_home">Інструкції</string>
     <string name="title_map">Карта</string>
     <string name="title_contacts">Контакти</string>
     <string name="map_description">Карта розташування об’єктів</string>
-    <string name="map_nau_1">Карта укриттів НАУ 1</string>
-    <string name="map_nau_2">Карта укриттів НАУ 2</string>
+    <string name="map_nau_1">Карта укриттів КАІ 1</string>
+    <string name="map_nau_2">Карта укриттів КАІ 2</string>
     <string name="contact_name">Назва контакту</string>
     <string name="contact_phone">Номер контакту</string>
     <string name="phone_emoji">📞</string>

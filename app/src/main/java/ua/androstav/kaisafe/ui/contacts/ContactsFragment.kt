@@ -1,4 +1,4 @@
-package ua.androstav.nausafe.ui.contacts
+package ua.androstav.kaisafe.ui.contacts
 
 import android.app.AlertDialog
 import android.os.Bundle
@@ -12,8 +12,8 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import ua.androstav.nausafe.databinding.FragmentContactsBinding
-import ua.androstav.nausafe.data.ContactEntity
+import ua.androstav.kaisafe.databinding.FragmentContactsBinding
+import ua.androstav.kaisafe.data.ContactEntity
 import android.text.InputFilter
 
 class ContactsFragment : Fragment() {

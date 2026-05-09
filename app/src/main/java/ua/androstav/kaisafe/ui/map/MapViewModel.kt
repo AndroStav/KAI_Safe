@@ -1,4 +1,4 @@
-package ua.androstav.nausafe.ui.map
+package ua.androstav.kaisafe.ui.map
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

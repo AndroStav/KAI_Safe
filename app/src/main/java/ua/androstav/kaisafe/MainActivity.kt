@@ -1,4 +1,4 @@
-package ua.androstav.nausafe
+package ua.androstav.kaisafe
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -9,8 +9,8 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import ua.androstav.nausafe.databinding.ActivityMainBinding
-import ua.androstav.nausafe.utils.FileLogger
+import ua.androstav.kaisafe.databinding.ActivityMainBinding
+import ua.androstav.kaisafe.utils.FileLogger
 
 class MainActivity : AppCompatActivity() {
 

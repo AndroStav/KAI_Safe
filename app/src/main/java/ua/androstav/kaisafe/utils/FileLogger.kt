@@ -1,4 +1,4 @@
-package ua.androstav.nausafe.utils
+package ua.androstav.kaisafe.utils
 
 import android.content.Context
 import java.io.File

@@ -1,11 +1,11 @@
-package ua.androstav.nausafe.ui.home
+package ua.androstav.kaisafe.ui.home
 
 import android.os.Bundle
 import android.view.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import ua.androstav.nausafe.databinding.FragmentInstructionDetailBinding
+import ua.androstav.kaisafe.databinding.FragmentInstructionDetailBinding
 
 class InstructionDetailFragment : Fragment() {
 

@@ -1,12 +1,9 @@
-package ua.androstav.nausafe
+package ua.androstav.kaisafe
 
 import org.junit.Assert.assertEquals
-import org.junit.Assert.assertTrue
 import org.junit.Test
-import ua.androstav.nausafe.data.ContactEntity
-import ua.androstav.nausafe.data.Instruction
-import ua.androstav.nausafe.ui.contacts.ContactsAdapter
-import ua.androstav.nausafe.ui.home.InstructionAdapter
+import ua.androstav.kaisafe.data.ContactEntity
+import ua.androstav.kaisafe.data.Instruction
 
 class AppUnitTests {
 

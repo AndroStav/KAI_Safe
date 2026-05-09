@@ -1,4 +1,4 @@
-package ua.androstav.nausafe
+package ua.androstav.kaisafe
 
 import org.junit.Test
 

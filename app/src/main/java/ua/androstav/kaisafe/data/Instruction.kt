@@ -1,4 +1,4 @@
-package ua.androstav.nausafe.data
+package ua.androstav.kaisafe.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

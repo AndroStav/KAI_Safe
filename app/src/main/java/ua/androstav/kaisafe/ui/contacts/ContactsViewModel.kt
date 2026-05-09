@@ -1,4 +1,4 @@
-package ua.androstav.nausafe.ui.contacts
+package ua.androstav.kaisafe.ui.contacts
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -6,9 +6,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import ua.androstav.nausafe.data.AppDB
-import ua.androstav.nausafe.data.ContactEntity
-import ua.androstav.nausafe.data.ContactRepository
+import ua.androstav.kaisafe.data.AppDB
+import ua.androstav.kaisafe.data.ContactEntity
+import ua.androstav.kaisafe.data.ContactRepository
 
 class ContactsViewModel(application: Application) : AndroidViewModel(application) {
 

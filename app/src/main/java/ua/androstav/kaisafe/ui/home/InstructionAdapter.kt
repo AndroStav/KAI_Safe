@@ -1,4 +1,4 @@
-package ua.androstav.nausafe.ui.home
+package ua.androstav.kaisafe.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import ua.androstav.nausafe.R
-import ua.androstav.nausafe.data.Instruction
+import ua.androstav.kaisafe.R
+import ua.androstav.kaisafe.data.Instruction
 
 class InstructionAdapter(
     private var instructions: List<Instruction>

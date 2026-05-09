@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "ua.androstav.nausafe"
+    namespace = "ua.androstav.kaisafe"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "ua.androstav.nausafe"
+        applicationId = "ua.androstav.kaisafe"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -51,6 +51,8 @@ dependencies {
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.photoview)
     implementation(libs.androidx.room.runtime)
+    implementation(libs.navigation.fragment.ktx)
+    implementation(libs.navigation.ui.ktx)
     kapt(libs.androidx.room.compiler)
     implementation(libs.androidx.room.ktx)
     implementation(libs.androidx.room.testing)

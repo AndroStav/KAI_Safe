@@ -1,13 +1,13 @@
-package ua.androstav.nausafe.ui.contacts
+package ua.androstav.kaisafe.ui.contacts
 
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.net.toUri
 import androidx.recyclerview.widget.RecyclerView
-import ua.androstav.nausafe.data.ContactEntity
-import ua.androstav.nausafe.databinding.ItemContactBinding
-import ua.androstav.nausafe.utils.FileLogger
+import ua.androstav.kaisafe.data.ContactEntity
+import ua.androstav.kaisafe.databinding.ItemContactBinding
+import ua.androstav.kaisafe.utils.FileLogger
 
 class ContactsAdapter(
     private val contacts: List<ContactEntity>,

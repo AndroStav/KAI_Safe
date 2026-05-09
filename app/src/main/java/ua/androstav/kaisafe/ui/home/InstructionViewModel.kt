@@ -1,4 +1,4 @@
-package ua.androstav.nausafe.ui.home
+package ua.androstav.kaisafe.ui.home
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -6,9 +6,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import ua.androstav.nausafe.data.Instruction
-import ua.androstav.nausafe.data.AppDB
-import ua.androstav.nausafe.data.InstructionRepository
+import ua.androstav.kaisafe.data.Instruction
+import ua.androstav.kaisafe.data.AppDB
+import ua.androstav.kaisafe.data.InstructionRepository
 
 class InstructionViewModel(application: Application) : AndroidViewModel(application) {
 
@@ -39,7 +39,7 @@ class InstructionViewModel(application: Application) : AndroidViewModel(applicat
                                 "4. Якщо є дим — рухайся повзучи або пригнувшись, закривши рот тканиною."),
 
                     Instruction(title = "Перша допомога", content =
-                                "1. Виклич швидку допомогу або звернися до медпункту НАУ.\n" +
+                                "1. Виклич швидку допомогу або звернися до медпункту КАІ.\n" +
                                 "2. Якщо поряд є постраждалий — перевір дихання, поклади його в стабільне положення.\n" +
                                 "3. Не залишай людину саму до прибуття допомоги.")
                 )
