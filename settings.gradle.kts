@@ -20,5 +20,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "NAU Safe"
+rootProject.name = "KAI Safe"
 include(":app")
