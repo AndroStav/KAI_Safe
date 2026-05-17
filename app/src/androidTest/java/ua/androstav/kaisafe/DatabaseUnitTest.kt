@@ -47,7 +47,7 @@ class DatabaseUnitTest {
         )
         instructionDao.insertAll(instructions)
 
-        // Використовуємо метод getAllOnce(), який ти написав у DAO
+        // Використовуємо метод getAllOnce()
         val loaded = instructionDao.getAllOnce()
 
         assertEquals(2, loaded.size)
